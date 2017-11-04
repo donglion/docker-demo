@@ -44,6 +44,11 @@ public class DemoApplication {
 		return "hello 7";
 	}
 
+	@GetMapping("/test8")
+	public String test8() {
+		return "hello 8";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
